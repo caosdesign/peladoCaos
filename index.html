@@ -6,33 +6,47 @@
   <title>caosdesign/peladoCaos @ GitHub</title>
 
   <style type="text/css">
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
     body {
-      margin-top: 1.0em;
-      background-color: #ffcc00;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
+      background-color: #000;
       color: #000000;
     }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #0033ff; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #0033ff; }
-    h3 { text-align: center; color: #0033ff; }
-    a { color: #0033ff; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
+	#content {
+		width: 1000px;
+		height: 560px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -280px;
+		margin-left: -500px;
+	}
+	
+	#content img {
+		border: 3px #231f20 solid;
+	}
+	
   </style>
 </head>
 
 <body>
-  <a href="http://github.com/caosdesign/peladoCaos"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+<a href="http://github.com/caosdesign/peladoCaos"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:1;" src="ribbon.png" alt="Fork me on GitHub" /></a>
 
+<div id="content">
+<img src="peladoCaos.jpg" alt="" usemap="#map"/>
+
+<map name="map">
+  <area shape="rect" coords="801,26,876,120" href="http://github.com/caosdesign/peladoCaos/zipball/master" alt=".zip" />
+  <area shape="rect" coords="899,26,970,120" href="http://github.com/caosdesign/peladoCaos/tarball/master" alt=".tar" />
+  <area shape="rect" coords="25,492,126,537" href="http://github.com/caosdesign/peladoCaos" alt="github" />
+  <area shape="rect" coords="616,352,1000,560" href="http://caosdesign.com.br" alt="caos" />
+</map>
+</div>
+
+<!--
   <div id="container">
 
     <div class="download">
@@ -50,9 +64,12 @@
     </div>
 
     <h2>Authors</h2>
-<p>Zeno Rocha (zno.rocha@gmail.com)<br/><br/>      </p>
+<p>Zeno Rocha (zno.rocha@gmail.com)
+<br/>
+<br/>      </p>
 <h2>Contact</h2>
-<p>caos! design (contato@caosdesign.com.br)<br/>      </p>
+<p>caos! design (contato@caosdesign.com.br)
+<br/>      </p>
 
 
     <h2>Download</h2>
@@ -71,7 +88,7 @@
     </div>
 
   </div>
-
+-->
   
 </body>
 </html>
