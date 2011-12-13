@@ -6,10 +6,12 @@
 	Author URI: http://caosdesign.com.br
 	
 	-- framework desenvolvido por Zeno Rocha em 02/08/2010 - incompleto
+	-- evoluÃ§Ã£o do framework para html5 usando o html5 boilerplate por afonso praÃ§a - 12/12/2011
+	-- atualizado em 22/05/2001
 	
 */
 
-/* --- Diagramação --- */
+/* --- Diagramacao --- */
 
 body {
 	background: #000;
@@ -52,25 +54,25 @@ body {
 
 /* --- Titulos --- */
 
-h1 a, h1 a:hover, h1 a:visited { /* H1 = Título do blog no header */
+h1 a, h1 a:hover, h1 a:visited { /* H1 = Titulo do blog no header */
 	color: #000;
 	font-size: 24pt;
 	font-family: Tahoma, Geneva, sans-serif;
 	text-decoration: none;
 }
 
-h2 a, h2 a:hover, h2 a:visited { /* H2 = Título dos posts  */
+h2 a, h2 a:hover, h2 a:visited { /* H2 = Titulo dos posts  */
 	color: #000;
 	font-size: 18pt;
 	font-family: Verdana, Geneva, sans-serif;
 	text-decoration: none;
 }
 
-h3 a, h3 a:hover, h3 a:visited { /* H3 = Título dos elementos da sidebar */
+h3 a, h3 a:hover, h3 a:visited { /* H3 = Titulo dos elementos da sidebar */
 	
 }
 
-/* --- Formatações do header.php --- */
+/* --- Formatacoes do header.php --- */
 
 #titulo {
 	padding-top: 30px;
@@ -82,7 +84,7 @@ h3 a, h3 a:hover, h3 a:visited { /* H3 = Título dos elementos da sidebar */
 	font-family: Tahoma, Geneva, sans-serif;
 }
 
-/* --- Formatações do index.php --- */
+/* --- Formatacoes do index.php --- */
 
 .post {
 	padding: 0 50px 0;	
@@ -99,12 +101,7 @@ h3 a, h3 a:hover, h3 a:visited { /* H3 = Título dos elementos da sidebar */
 	font-size: 10pt;
 	font-family: Verdana, Geneva, sans-serif;
 }
-
-.home .sticky h2 a{ /* Experiencias com sticky post */
-	color: red;
-}
-
-/* --- Navegação --- */
+/* --- Navegacao --- */
 
 .navigation {
 	
@@ -141,7 +138,6 @@ a:active {
 #comment-area {
 	width: 700px;
 	padding: 0 50px 0px;
-	/*padding-right: 100px;*/
 }
 
 #comment {
