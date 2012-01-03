@@ -29,6 +29,9 @@
 	
 	<!-- Modernizr -->
 	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	
+	<!-- Sitemap -->
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 
 	<?php  wp_head();  ?>
 
