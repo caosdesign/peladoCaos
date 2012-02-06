@@ -16,8 +16,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/reset.css" />
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css" />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/globals/reset.css" />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/globals/style.css" />
 
     <!-- Favicon --><link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="image/x-icon" />
 	

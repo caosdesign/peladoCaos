@@ -1,0 +1,145 @@
+/*
+	Theme Name: PeladoCaos!
+	Description: Tema Wordpress desenvolvido por caos! design
+	Version: 0.1
+	Author: Caos! Design
+	Author URI: http://caosdesign.com.br
+	
+	-- framework desenvolvido por Zeno Rocha em 02/08/2010 - incompleto
+	-- evolução do framework para html5 usando o html5 boilerplate por afonso praça - 12/12/2011
+	-- atualizado em 22/05/2001
+	
+*/
+
+/* --- Diagramacao --- */
+
+body {
+	background: #000;
+}
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	background: #FFF;
+}
+
+#header {
+	width: 1000px;
+	height: 200px;
+	background: #DDD;
+	text-align: center;
+}
+
+#content {
+	width: 700px;
+	background: #FFF;
+	padding: 10px 0px 10px;
+	float: left;
+}
+
+#sidebar {
+	width: 300px;
+	background: #ffbc12;
+	float: right;
+	text-align: center;
+}
+
+#footer {
+	width: 1000px;
+	height: 100px;
+	background: #ccc;
+	clear: both;
+	text-align: center;
+}
+
+/* --- Titulos --- */
+
+h1 a, h1 a:hover, h1 a:visited { /* H1 = Titulo do blog no header */
+	color: #000;
+	font-size: 24pt;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+}
+
+h2 a, h2 a:hover, h2 a:visited { /* H2 = Titulo dos posts  */
+	color: #000;
+	font-size: 18pt;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+}
+
+h3 a, h3 a:hover, h3 a:visited { /* H3 = Titulo dos elementos da sidebar */
+	
+}
+
+/* --- Formatacoes do header.php --- */
+
+#titulo {
+	padding-top: 30px;
+}
+
+#descricao {
+	color: #000;
+	font-size: 20pt;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* --- Formatacoes do index.php --- */
+
+.post {
+	padding: 0 50px 0;	
+}
+
+.entry {
+	color: #000;
+	font-size: 10pt;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.postmetadata {
+	color: #666;
+	font-size: 10pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/* --- Navegacao --- */
+
+.navigation {
+	
+}
+
+.left {
+	
+}
+
+.right {
+	
+}
+
+/* --- Links universais --- */
+
+a:link {
+	
+}
+
+a:hover {
+	
+}
+
+a:visited {
+	
+}
+
+a:active {
+	
+}
+
+/* --- Comentarios --- */
+
+#comment-area {
+	width: 700px;
+	padding: 0 50px 0px;
+}
+
+#comment {
+	width: 500px;
+}

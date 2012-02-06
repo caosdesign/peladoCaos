@@ -9,8 +9,7 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
 <!-- scripts concatenated and minified via ant build script-->
-<script src="js/plugins.js"></script>
-<script src="js/script.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/controller.js"></script>
 <!-- end scripts-->
 
 <?php wp_footer(); ?>
